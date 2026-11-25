@@ -4,11 +4,14 @@
 
 **Self-Managed Personal Learning Dashboard, Syllabus Tracker & Daily Study Log**
 
-[![Offline Ready](https://img.shields.io/badge/Offline-LocalStorage%20%2B%20PWA-4f46e5?style=flat-square)](#architecture)
-[![Zero Backend](https://img.shields.io/badge/Backend-None%20(100%25%20Client--Side)-10b981?style=flat-square)](#tech-stack)
-[![GitHub Pages](https://img.shields.io/badge/Hosted-GitHub%20Pages%20Ready-0ea5e9?style=flat-square)](https://abvicky.github.io/StudyTrack/)
+[![Author](https://img.shields.io/badge/Author-ABVicky-111827?style=flat-square&logo=github)](https://github.com/ABVicky)
+[![Live App](https://img.shields.io/badge/Live%20App-GitHub%20Pages-0ea5e9?style=flat-square&logo=githubpages)](https://abvicky.github.io/StudyTrack/)
+[![Offline Ready](https://img.shields.io/badge/Offline-LocalStorage%20%2B%20PWA-4f46e5?style=flat-square)](#project-structure)
+[![Zero Backend](https://img.shields.io/badge/Backend-None%20(100%25%20Client--Side)-10b981?style=flat-square)](#highlights)
 
 *Organize modules, track syllabus completion, log daily study sessions, monitor streaks, and visualize progress — directly in your browser with zero servers or accounts.*
+
+**[Launch Live Dashboard](https://abvicky.github.io/StudyTrack/)** &bull; **[Report an Issue](https://github.com/ABVicky/StudyTrack/issues)**
 
 </div>
 
@@ -63,20 +66,24 @@ StudyTrack/
 
 ## Quick Start
 
-### Option 1: Use Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ABVicky/StudyTrack.git
-   ```
-2. Open `index.html` directly in any modern browser.
+### Option 1: Use Online (GitHub Pages)
+Open **[https://abvicky.github.io/StudyTrack/](https://abvicky.github.io/StudyTrack/)** in any browser and optionally install it as a standalone app (PWA).
 
-### Option 2: GitHub Pages
-1. Go to your repository **Settings → Pages**.
-2. Set **Source** to **Deploy from a branch** (`main` / `/ (root)`).
-3. Access your dashboard anytime at `https://abvicky.github.io/StudyTrack/`.
+### Option 2: Run Locally
+```bash
+git clone https://github.com/ABVicky/StudyTrack.git
+cd StudyTrack
+```
+Open `index.html` directly in any modern browser.
 
 ---
 
 ## Data & Privacy Note
 
 All modules, topics, study sessions, and preferences are stored locally in your browser's `LocalStorage` (`study_tracker_data_v1`). Because `LocalStorage` is browser- and device-specific, clearing browser site data will erase your records. Use **Settings → Export JSON** regularly to keep a portable backup or transfer your data across devices.
+
+---
+
+<div align="center">
+  <sub>StudyTrack &bull; Crafted by <a href="https://github.com/ABVicky">ABVicky</a></sub>
+</div>
