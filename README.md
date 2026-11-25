@@ -85,5 +85,5 @@ All modules, topics, study sessions, and preferences are stored locally in your 
 ---
 
 <div align="center">
-  <sub>StudyTrack &bull; Crafted by <a href="https://github.com/ABVicky">ABVicky</a></sub>
+  <sub>Designed and Developed by <strong>Manikarnika Technologies</strong></sub>
 </div>
